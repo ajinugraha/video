@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="AboutMe">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="0"myPackage/>
+        <Property name="title" type="java.lang.String" value="About Me"myPackage/>
+        <Property name="locationByPlatform" type="boolean" value="true"myPackage/>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[540, 430]"myPackage/>
+        <myPackage/Property>
+        <Property name="modal" type="boolean" value="true"myPackage/>
+      <myPackage/Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.RADVisualComponent$AccessibleParentEditor">
+          <ComponentRef name="Form"myPackage/>
+        <myPackage/Property>
+      <myPackage/AccessibilityProperties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"myPackage/>
+                  <Component id="jPanel7" max="32767" attributes="0"myPackage/>
+                  <EmptySpace max="-2" attributes="0"myPackage/>
+              <myPackage/Group>
+          <myPackage/Group>
+        <myPackage/DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"myPackage/>
+                  <Component id="jPanel7" min="-2" max="-2" attributes="0"myPackage/>
+                  <EmptySpace pref="29" max="32767" attributes="0"myPackage/>
+              <myPackage/Group>
+          <myPackage/Group>
+        <myPackage/DimensionLayout>
+      <myPackage/Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel7">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"myPackage/>
+                              <EmptySpace min="-2" pref="120" max="-2" attributes="0"myPackage/>
+                          <myPackage/Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jSeparator7" pref="500" max="32767" attributes="0"myPackage/>
+                              <EmptySpace max="-2" attributes="0"myPackage/>
+                          <myPackage/Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnExit" pref="80" max="32767" attributes="1"myPackage/>
+                                      <EmptySpace min="-2" pref="342" max="-2" attributes="0"myPackage/>
+                                      <Component id="btnAccept" pref="78" max="32767" attributes="1"myPackage/>
+                                  <myPackage/Group>
+                                  <Component id="jScrollPane6" alignment="0" min="-2" pref="488" max="-2" attributes="0"myPackage/>
+                              <myPackage/Group>
+                              <EmptySpace max="-2" attributes="0"myPackage/>
+                          <myPackage/Group>
+                      <myPackage/Group>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"myPackage/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"myPackage/>
+                      <Component id="jSeparator7" min="-2" pref="10" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="jScrollPane6" min="-2" pref="247" max="-2" attributes="0"myPackage/>
+                      <EmptySpace type="separate" max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnExit" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="btnAccept" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace pref="27" max="32767" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+          <myPackage/Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Comic Sans MS" size="24" style="3"myPackage/>
+                <myPackage/Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="66" type="rgb"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Peer-To-Peer WebCam"myPackage/>
+              <myPackage/Properties>
+            <myPackage/Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator7">
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnExit">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExitActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnAccept">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Accept"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Accept terms and conditions"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAcceptActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"myPackage/>
+              <myPackage/AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"myPackage/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"myPackage/>
+                    <Property name="editable" type="boolean" value="false"myPackage/>
+                    <Property name="rows" type="int" value="5"myPackage/>
+                    <Property name="text" type="java.lang.String" value="Aplikasi peer to peer yang dapat melakukan file sharing&#xa;dan capture image dan video dari media webcam.&#xa;&#xa;Note:&#xa;- Untuk penelitian dan pembelajaran&#xa;- Dibutuhkan JMF yang sudah terinstal agar dapat menggunakan&#xa;  device webcam&#xa;- download JMF pada alamat &#xa;  http:myPackage//download.oracle.com/otn-pub/java/jmf/2.1.1e/&#xa;  jmf-2_1_1e-windows-i586.exe&#xa;- instal JMF dan copy file jmf.properties pada direktori&#xa;  C:\Program Files\JMF2.1.1e\lib&#xa;- paste pada direktori yang sama dengan aplikasi ini"myPackage/>
+                  <myPackage/Properties>
+                <myPackage/Component>
+              <myPackage/SubComponents>
+            <myPackage/Container>
+          <myPackage/SubComponents>
+        <myPackage/Container>
+      <myPackage/SubComponents>
+    <myPackage/Container>
+    <Container class="javax.swing.JDialog" name="Rename">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"myPackage/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"myPackage/>
+                              <Component id="Filename" alignment="0" min="-2" pref="197" max="-2" attributes="0"myPackage/>
+                          <myPackage/Group>
+                      <myPackage/Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="96" max="-2" attributes="0"myPackage/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"myPackage/>
+                      <myPackage/Group>
+                  <myPackage/Group>
+                  <EmptySpace pref="150" max="32767" attributes="0"myPackage/>
+              <myPackage/Group>
+          <myPackage/Group>
+        <myPackage/DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="71" max="-2" attributes="0"myPackage/>
+                  <Component id="jLabel7" min="-2" max="-2" attributes="0"myPackage/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"myPackage/>
+                  <Component id="Filename" min="-2" pref="32" max="-2" attributes="0"myPackage/>
+                  <EmptySpace type="separate" max="-2" attributes="0"myPackage/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"myPackage/>
+                  <EmptySpace pref="131" max="32767" attributes="0"myPackage/>
+              <myPackage/Group>
+          <myPackage/Group>
+        <myPackage/DimensionLayout>
+      <myPackage/Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="file already exist, raname file"myPackage/>
+          <myPackage/Properties>
+        <myPackage/Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jButton1"myPackage/>
+          <myPackage/Properties>
+        <myPackage/Component>
+        <Component class="javax.swing.JTextField" name="Filename">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FilenameActionPerformed"myPackage/>
+          <myPackage/Events>
+        <myPackage/Component>
+      <myPackage/SubComponents>
+    <myPackage/Container>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="mnemonic" type="int" value="70"myPackage/>
+            <Property name="text" type="java.lang.String" value="File"myPackage/>
+          <myPackage/Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="MenuItemConnect">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/16x16/connectIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="mnemonic" type="int" value="67"myPackage/>
+                <Property name="text" type="java.lang.String" value="Connect"myPackage/>
+                <Property name="enabled" type="boolean" value="false"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuItemConnectActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="MenuItemDisconnect">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/16x16/disconnectIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Disconnect"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuItemDisconnectActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator1">
+            <myPackage/MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="MenuItemExit">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/16x16/exitIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="mnemonic" type="int" value="88"myPackage/>
+                <Property name="text" type="java.lang.String" value="Exit"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuItemExitActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/MenuItem>
+          <myPackage/SubComponents>
+        <myPackage/Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="mnemonic" type="int" value="86"myPackage/>
+            <Property name="text" type="java.lang.String" value="View"myPackage/>
+          <myPackage/Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="jMenu4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Window Style"myPackage/>
+              <myPackage/Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="ItemWindowStyle">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Windows Look"myPackage/>
+                  <myPackage/Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ItemWindowStyleActionPerformed"myPackage/>
+                  <myPackage/Events>
+                <myPackage/MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="ItemSwingStyle">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Swing Look"myPackage/>
+                  <myPackage/Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ItemSwingStyleActionPerformed"myPackage/>
+                  <myPackage/Events>
+                <myPackage/MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="ItemOthersStyle">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Others Look"myPackage/>
+                  <myPackage/Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ItemOthersStyleActionPerformed"myPackage/>
+                  <myPackage/Events>
+                <myPackage/MenuItem>
+              <myPackage/SubComponents>
+            <myPackage/Menu>
+          <myPackage/SubComponents>
+        <myPackage/Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="mnemonic" type="int" value="72"myPackage/>
+            <Property name="text" type="java.lang.String" value="Help"myPackage/>
+          <myPackage/Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="ItemAboutMe">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/16x16/helpIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="mnemonic" type="int" value="65"myPackage/>
+                <Property name="text" type="java.lang.String" value="About Me"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="About Me!"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ItemAboutMeActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/MenuItem>
+          <myPackage/SubComponents>
+        <myPackage/Menu>
+      <myPackage/SubComponents>
+    <myPackage/Menu>
+  <myPackage/NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"myPackage/>
+    <Property name="title" type="java.lang.String" value="P2P File Sharing Application"myPackage/>
+    <Property name="locationByPlatform" type="boolean" value="true"myPackage/>
+  <myPackage/Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"myPackage/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"myPackage/>
+  <myPackage/SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"myPackage/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"myPackage/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"myPackage/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"myPackage/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"myPackage/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"myPackage/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"myPackage/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"myPackage/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"myPackage/>
+  <myPackage/AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"myPackage/>
+              <Component id="jTabbedPane1" pref="785" max="32767" attributes="0"myPackage/>
+              <EmptySpace max="-2" attributes="0"myPackage/>
+          <myPackage/Group>
+      <myPackage/Group>
+    <myPackage/DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"myPackage/>
+              <Component id="jTabbedPane1" max="32767" attributes="0"myPackage/>
+              <EmptySpace max="-2" attributes="0"myPackage/>
+          <myPackage/Group>
+      <myPackage/Group>
+    <myPackage/DimensionLayout>
+  <myPackage/Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"myPackage/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Connection Information:"myPackage/>
+              <myPackage/Border>
+            <myPackage/Property>
+          <myPackage/Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Connection Log" toolTip="Connection Information">
+                <Property name="tabTitle" type="java.lang.String" value="Connection Log"myPackage/>
+                <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/LogIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="tabToolTip" type="java.lang.String" value="Connection Information"myPackage/>
+              <myPackage/JTabbedPaneConstraints>
+            <myPackage/Constraint>
+          <myPackage/Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="jScrollPane1" pref="748" max="32767" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" pref="471" max="32767" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+          <myPackage/Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"myPackage/>
+              <myPackage/AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"myPackage/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtLog">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"myPackage/>
+                    <Property name="editable" type="boolean" value="false"myPackage/>
+                    <Property name="rows" type="int" value="5"myPackage/>
+                    <Property name="text" type="java.lang.String" value="===== Welcome to SaEeD&apos;s Peer-To-Peer File Sharing Application =====&#xa;"myPackage/>
+                    <Property name="toolTipText" type="java.lang.String" value="Connection Information"myPackage/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="Log:"myPackage/>
+                      <myPackage/Border>
+                    <myPackage/Property>
+                  <myPackage/Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"myPackage/>
+                  <myPackage/AuxValues>
+                <myPackage/Component>
+              <myPackage/SubComponents>
+            <myPackage/Container>
+          <myPackage/SubComponents>
+        <myPackage/Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Search for Files:"myPackage/>
+              <myPackage/Border>
+            <myPackage/Property>
+          <myPackage/Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Search" toolTip="Search for Shared Files.">
+                <Property name="tabTitle" type="java.lang.String" value="Search"myPackage/>
+                <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/searchIcon2.png"myPackage/>
+                <myPackage/Property>
+                <Property name="tabToolTip" type="java.lang.String" value="Search for Shared Files."myPackage/>
+              <myPackage/JTabbedPaneConstraints>
+            <myPackage/Constraint>
+          <myPackage/Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" alignment="0" pref="748" max="32767" attributes="1"myPackage/>
+                          <Component id="jSeparator3" alignment="1" pref="748" max="32767" attributes="0"myPackage/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"myPackage/>
+                              <EmptySpace max="-2" attributes="0"myPackage/>
+                              <Component id="txtFilename" min="-2" pref="356" max="-2" attributes="1"myPackage/>
+                          <myPackage/Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnSearch" min="-2" max="-2" attributes="1"myPackage/>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"myPackage/>
+                              <Component id="btnDownload" min="-2" pref="525" max="-2" attributes="1"myPackage/>
+                              <EmptySpace max="-2" attributes="0"myPackage/>
+                              <Component id="btnStop" pref="120" max="32767" attributes="1"myPackage/>
+                          <myPackage/Group>
+                      <myPackage/Group>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="txtFilename" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="jScrollPane2" min="-2" pref="313" max="-2" attributes="0"myPackage/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"myPackage/>
+                      <Component id="jSeparator3" min="-2" pref="13" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnDownload" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="btnSearch" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="btnStop" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace pref="62" max="32767" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+          <myPackage/Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="File Name:"myPackage/>
+              <myPackage/Properties>
+            <myPackage/Component>
+            <Component class="javax.swing.JTextField" name="txtFilename">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Enter File Name to search for."myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFilenameActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"myPackage/>
+              <myPackage/AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"myPackage/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="mySearchTable">
+                  <Properties>
+                    <Property name="autoCreateRowSorter" type="boolean" value="true"myPackage/>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="3" rowCount="17">
+                        <Column editable="true" title="File Name" type="java.lang.Object"myPackage/>
+                        <Column editable="true" title="Size Bytes" type="java.lang.Object"myPackage/>
+                        <Column editable="true" title="Check Sum (CRC-32)" type="java.lang.Object"myPackage/>
+                      <myPackage/Table>
+                    <myPackage/Property>
+                    <Property name="toolTipText" type="java.lang.String" value="List of Found Files."myPackage/>
+                  <myPackage/Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"myPackage/>
+                  <myPackage/AuxValues>
+                <myPackage/Component>
+              <myPackage/SubComponents>
+            <myPackage/Container>
+            <Component class="javax.swing.JSeparator" name="jSeparator3">
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnSearch">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/searchIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Search"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Start Searching"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSearchActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnStop">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/cancelIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Stop"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Stop searching progress"myPackage/>
+                <Property name="enabled" type="boolean" value="false"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnStopActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnDownload">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/saveIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Download"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Downloading Selected File."myPackage/>
+                <Property name="enabled" type="boolean" value="false"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDownloadActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+          <myPackage/SubComponents>
+        <myPackage/Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="List of Shared Files:"myPackage/>
+              <myPackage/Border>
+            <myPackage/Property>
+          <myPackage/Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Shared Files" toolTip="List of Shared Files">
+                <Property name="tabTitle" type="java.lang.String" value="Shared Files"myPackage/>
+                <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/folderIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="tabToolTip" type="java.lang.String" value="List of Shared Files"myPackage/>
+              <myPackage/JTabbedPaneConstraints>
+            <myPackage/Constraint>
+          <myPackage/Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="jScrollPane3" pref="748" max="32767" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                  <myPackage/Group>
+                  <Component id="jSeparator4" alignment="0" pref="768" max="32767" attributes="0"myPackage/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="btnReload" pref="748" max="32767" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                  <myPackage/Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="BtnCap" min="-2" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="BtnImg" min="-2" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="VidCap" min="-2" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="PriVid" min="-2" max="-2" attributes="0"myPackage/>
+                      <EmptySpace pref="330" max="32767" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane3" min="-2" pref="382" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="btnReload" min="-2" max="-2" attributes="0"myPackage/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="BtnCap" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="BtnImg" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="VidCap" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="PriVid" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace max="32767" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+          <myPackage/Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"myPackage/>
+              <myPackage/AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"myPackage/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="mySharedTable">
+                  <Properties>
+                    <Property name="autoCreateRowSorter" type="boolean" value="true"myPackage/>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="10">
+                        <Column editable="true" title="Type" type="java.lang.Object"myPackage/>
+                        <Column editable="true" title="File Name" type="java.lang.Object"myPackage/>
+                        <Column editable="true" title="Size Bytes" type="java.lang.Object"myPackage/>
+                        <Column editable="true" title="Check Sum (CRC-32)" type="java.lang.Object"myPackage/>
+                      <myPackage/Table>
+                    <myPackage/Property>
+                    <Property name="toolTipText" type="java.lang.String" value="My Shared Files"myPackage/>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        <myPackage/Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        <myPackage/Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        <myPackage/Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        <myPackage/Column>
+                      <myPackage/TableColumnModel>
+                    <myPackage/Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"myPackage/>
+                    <myPackage/Property>
+                  <myPackage/Properties>
+                <myPackage/Component>
+              <myPackage/SubComponents>
+            <myPackage/Container>
+            <Component class="javax.swing.JSeparator" name="jSeparator4">
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnReload">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/reloadIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="mnemonic" type="int" value="82"myPackage/>
+                <Property name="text" type="java.lang.String" value="Reload"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Refreshing Shared Files."myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnReloadActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="BtnCap">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Capture Image"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnCapActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="BtnImg">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Preview Image"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnImgActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="VidCap">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" Capture Video"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="VidCapActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="PriVid">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Preview Video"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PriVidActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+          <myPackage/SubComponents>
+        <myPackage/Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Download Status:"myPackage/>
+              <myPackage/Border>
+            <myPackage/Property>
+          <myPackage/Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Downloads" toolTip="Downloads Status">
+                <Property name="tabTitle" type="java.lang.String" value="Downloads"myPackage/>
+                <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/downloadIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="tabToolTip" type="java.lang.String" value="Downloads Status"myPackage/>
+              <myPackage/JTabbedPaneConstraints>
+            <myPackage/Constraint>
+          <myPackage/Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel3" alignment="0" max="32767" attributes="1"myPackage/>
+                          <Component id="jLabel2" alignment="0" pref="65" max="32767" attributes="1"myPackage/>
+                          <Component id="jLabel4" alignment="0" max="32767" attributes="1"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="myProgressBar" max="32767" attributes="1"myPackage/>
+                          <Component id="lblStatus" alignment="0" max="32767" attributes="1"myPackage/>
+                          <Component id="lblFilename" alignment="0" min="-2" pref="313" max="-2" attributes="1"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btnVerify" max="32767" attributes="1"myPackage/>
+                          <Component id="btnCancel" alignment="0" max="32767" attributes="1"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace pref="283" max="32767" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="lblFilename" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="btnVerify" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="lblStatus" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="myProgressBar" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="btnCancel" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace pref="395" max="32767" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+          <myPackage/Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="File Name:"myPackage/>
+              <myPackage/Properties>
+            <myPackage/Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Status:"myPackage/>
+              <myPackage/Properties>
+            <myPackage/Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Complited:"myPackage/>
+              <myPackage/Properties>
+            <myPackage/Component>
+            <Component class="javax.swing.JLabel" name="lblFilename">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"myPackage/>
+                <myPackage/Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="99" type="rgb"myPackage/>
+                <myPackage/Property>
+                <Property name="horizontalAlignment" type="int" value="0"myPackage/>
+                <Property name="text" type="java.lang.String" value="None"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Downloading file name"myPackage/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder bevelType="1"myPackage/>
+                  <myPackage/Border>
+                <myPackage/Property>
+              <myPackage/Properties>
+            <myPackage/Component>
+            <Component class="javax.swing.JLabel" name="lblStatus">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="0" red="0" type="rgb"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Waiting....."myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Status of current download"myPackage/>
+              <myPackage/Properties>
+            <myPackage/Component>
+            <Component class="javax.swing.JProgressBar" name="myProgressBar">
+              <Properties>
+                <Property name="stringPainted" type="boolean" value="true"myPackage/>
+              <myPackage/Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"myPackage/>
+              <myPackage/AuxValues>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnVerify">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/16x16/varifyIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Verify"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Verify Downloaded File"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVerifyActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnCancel">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/16x16/cancelIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Cancel"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Cancel Download"myPackage/>
+                <Property name="enabled" type="boolean" value="false"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+          <myPackage/SubComponents>
+        <myPackage/Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Peers Chatting Service:"myPackage/>
+              <myPackage/Border>
+            <myPackage/Property>
+          <myPackage/Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Chat" toolTip="Peers Messenger">
+                <Property name="tabTitle" type="java.lang.String" value="Chat"myPackage/>
+                <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/MessengerIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="tabToolTip" type="java.lang.String" value="Peers Messenger"myPackage/>
+              <myPackage/JTabbedPaneConstraints>
+            <myPackage/Constraint>
+          <myPackage/Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator5" alignment="0" pref="748" max="32767" attributes="0"myPackage/>
+                          <Component id="jScrollPane4" alignment="0" pref="748" max="32767" attributes="0"myPackage/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"myPackage/>
+                              <EmptySpace max="-2" attributes="0"myPackage/>
+                              <Component id="txtMessage" min="-2" pref="481" max="-2" attributes="0"myPackage/>
+                              <EmptySpace max="-2" attributes="0"myPackage/>
+                              <Component id="btnSendMessage" pref="171" max="32767" attributes="0"myPackage/>
+                          <myPackage/Group>
+                      <myPackage/Group>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane4" min="-2" pref="371" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="txtMessage" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                          <Component id="btnSendMessage" alignment="3" min="-2" max="-2" attributes="0"myPackage/>
+                      <myPackage/Group>
+                      <EmptySpace pref="56" max="32767" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+          <myPackage/Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"myPackage/>
+              <myPackage/AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"myPackage/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtChatArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"myPackage/>
+                    <Property name="editable" type="boolean" value="false"myPackage/>
+                    <Property name="rows" type="int" value="5"myPackage/>
+                    <Property name="toolTipText" type="java.lang.String" value="Chat Area"myPackage/>
+                  <myPackage/Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"myPackage/>
+                  <myPackage/AuxValues>
+                <myPackage/Component>
+              <myPackage/SubComponents>
+            <myPackage/Container>
+            <Component class="javax.swing.JSeparator" name="jSeparator5">
+            <myPackage/Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Enter Message:"myPackage/>
+              <myPackage/Properties>
+            <myPackage/Component>
+            <Component class="javax.swing.JTextField" name="txtMessage">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Enter Message Here"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMessageActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnSendMessage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/launchIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="mnemonic" type="int" value="83"myPackage/>
+                <Property name="text" type="java.lang.String" value="Send"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Sending Message"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSendMessageActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+          <myPackage/SubComponents>
+        <myPackage/Container>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Listing Peers In Current Group"myPackage/>
+              <myPackage/Border>
+            <myPackage/Property>
+          <myPackage/Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="List Of Peers" toolTip="Listing Peers in Group">
+                <Property name="tabTitle" type="java.lang.String" value="List Of Peers"myPackage/>
+                <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/sysinfoIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="tabToolTip" type="java.lang.String" value="Listing Peers in Group"myPackage/>
+              <myPackage/JTabbedPaneConstraints>
+            <myPackage/Constraint>
+          <myPackage/Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel6" alignment="0" pref="748" max="32767" attributes="0"myPackage/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane5" min="-2" pref="245" max="-2" attributes="0"myPackage/>
+                              <EmptySpace max="-2" attributes="0"myPackage/>
+                              <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"myPackage/>
+                              <EmptySpace max="-2" attributes="0"myPackage/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnStopPeerSearch" max="32767" attributes="1"myPackage/>
+                                  <Component id="btnFindPeers" alignment="0" max="32767" attributes="1"myPackage/>
+                              <myPackage/Group>
+                          <myPackage/Group>
+                      <myPackage/Group>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator6" alignment="0" pref="420" max="32767" attributes="1"myPackage/>
+                          <Component id="jScrollPane5" alignment="0" pref="420" max="32767" attributes="1"myPackage/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnFindPeers" min="-2" max="-2" attributes="0"myPackage/>
+                              <EmptySpace pref="354" max="32767" attributes="0"myPackage/>
+                              <Component id="btnStopPeerSearch" min="-2" max="-2" attributes="0"myPackage/>
+                          <myPackage/Group>
+                      <myPackage/Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"myPackage/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"myPackage/>
+                      <EmptySpace max="-2" attributes="0"myPackage/>
+                  <myPackage/Group>
+              <myPackage/Group>
+            <myPackage/DimensionLayout>
+          <myPackage/Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"myPackage/>
+              <myPackage/AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"myPackage/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="ListOfPeers">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="Peers Name:"myPackage/>
+                      <myPackage/Border>
+                    <myPackage/Property>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                      <StringArray count="0"myPackage/>
+                    <myPackage/Property>
+                    <Property name="toolTipText" type="java.lang.String" value="Peers in SaEeD Group"myPackage/>
+                  <myPackage/Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"myPackage/>
+                  <myPackage/AuxValues>
+                <myPackage/Component>
+              <myPackage/SubComponents>
+            <myPackage/Container>
+            <Component class="javax.swing.JSeparator" name="jSeparator6">
+              <Properties>
+                <Property name="orientation" type="int" value="1"myPackage/>
+              <myPackage/Properties>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnFindPeers">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/searchIcon2.png"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Find Peers"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Start Searching for Peers in SaEeD Group"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFindPeersActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JButton" name="btnStopPeerSearch">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/cancelIcon.png"myPackage/>
+                <myPackage/Property>
+                <Property name="text" type="java.lang.String" value="Stop"myPackage/>
+                <Property name="toolTipText" type="java.lang.String" value="Stop Searching for Peers"myPackage/>
+                <Property name="enabled" type="boolean" value="false"myPackage/>
+              <myPackage/Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnStopPeerSearchActionPerformed"myPackage/>
+              <myPackage/Events>
+            <myPackage/Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"myPackage/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="myPackage/myPackage/myIcons/24x24/progress_bar.gif"myPackage/>
+                <myPackage/Property>
+              <myPackage/Properties>
+            <myPackage/Component>
+          <myPackage/SubComponents>
+        <myPackage/Container>
+      <myPackage/SubComponents>
+    <myPackage/Container>
+  <myPackage/SubComponents>
+<myPackage/Form>
