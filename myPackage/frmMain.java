@@ -37,9 +37,9 @@ import net.jxta.share.ContentAdvertisement;
 public class frmMain extends javax.swing.JFrame 
 {
     //Defining Class Variables
-    private final ImageIcon mp3Icon = new ImageIcon(getClass().getResource("/myPackage/myIcons.16x16/mp3Icon.png"));
-    private final ImageIcon VideoIcon = new ImageIcon(getClass().getResource("/myPackage/myIcons.16x16/videoIcon.png"));
-    private final ImageIcon OthersIcon = new ImageIcon(getClass().getResource("/myPackage/myIcons.16x16/otherfilesIcon.png"));
+    private final ImageIcon mp3Icon = new ImageIcon(getClass().getResource("/myPackage/myIcons/16x16/mp3Icon.png"));
+    private final ImageIcon VideoIcon = new ImageIcon(getClass().getResource("/myPackage/myIcons/16x16/videoIcon.png"));
+    private final ImageIcon OthersIcon = new ImageIcon(getClass().getResource("/myPackage/myIcons/16x16/otherfilesIcon.png"));
     
     static String Path = null;
     //Original check sum which will be taken from Content Advertisement
